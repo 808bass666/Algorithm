@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T10:49:45.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="D3YhnBBJoRK2ze1wkeC-" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T12:25:37.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="KztD1pQVvZ5qQ0aiLu3N" version="22.0.5" type="github">
   <diagram name="第 1 页" id="PjZs5kLfQp9zXu6E3ntm">
     <mxGraphModel dx="1663" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MCI71acArB24floLTyHA-1" value="&lt;font color=&quot;#6600cc&quot; style=&quot;font-size: 18px;&quot;&gt;MySQL 中的 SQL执行流程&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="81" y="440" width="249" height="40" as="geometry" />
+          <mxGeometry x="-100" y="525" width="249" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MCI71acArB24floLTyHA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MCI71acArB24floLTyHA-2" target="MCI71acArB24floLTyHA-3">
           <mxGeometry relative="1" as="geometry" />
@@ -75,21 +75,18 @@
         <mxCell id="MCI71acArB24floLTyHA-20" value="如果语法错误，报错返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="220" y="8" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MCI71acArB24floLTyHA-22" value="查询选择的存储引擎并调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="465" y="259" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MCI71acArB24floLTyHA-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=57.5;exitPerimeter=0;entryX=1.045;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="MCI71acArB24floLTyHA-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MCI71acArB24floLTyHA-22">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="479.95" y="387.48" as="sourcePoint" />
-            <mxPoint x="34.90000000000004" y="215.904" as="targetPoint" />
+            <mxPoint x="40" y="220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="479.95" y="398.98" />
-              <mxPoint x="160.95000000000002" y="398.98" />
-              <mxPoint x="160.95000000000002" y="219.98000000000002" />
-              <mxPoint x="49.949999999999996" y="219.98000000000002" />
-              <mxPoint x="49.949999999999996" y="215.98000000000002" />
+              <mxPoint x="190" y="274" />
+              <mxPoint x="190" y="220" />
+              <mxPoint x="50" y="220" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-22" value="查询选择的存储引擎并调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="259" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MCI71acArB24floLTyHA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MCI71acArB24floLTyHA-23" target="MCI71acArB24floLTyHA-33">
           <mxGeometry relative="1" as="geometry">
@@ -130,7 +127,7 @@
           <mxGeometry x="495.5" y="550" width="109" height="88" as="geometry" />
         </mxCell>
         <mxCell id="MCI71acArB24floLTyHA-42" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;glass=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="71" y="420" width="239" height="70" as="geometry" />
+          <mxGeometry x="-120" y="510" width="239" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MCI71acArB24floLTyHA-44" value="执行计划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="515" y="208" width="80" height="31" as="geometry" />
@@ -138,17 +135,14 @@
         <mxCell id="MCI71acArB24floLTyHA-46" value="生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="545" y="171" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MCI71acArB24floLTyHA-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="220" as="sourcePoint" />
-            <mxPoint x="210" y="170" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="210" y="220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="MCI71acArB24floLTyHA-50" value="存入查询缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="210" y="189" width="100" height="30" as="geometry" />
+          <mxGeometry x="190" y="178" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="189" y="220" as="sourcePoint" />
+            <mxPoint x="188" y="167" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
