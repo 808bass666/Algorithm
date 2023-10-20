@@ -1,11 +1,154 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T10:18:22.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="Pbs0lVeD1-mB2v-cWjWO" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T10:49:45.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="D3YhnBBJoRK2ze1wkeC-" version="22.0.5" type="github">
   <diagram name="第 1 页" id="PjZs5kLfQp9zXu6E3ntm">
-    <mxGraphModel dx="836" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1663" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MCI71acArB24floLTyHA-1" value="MySQL 中的 SQL执行流程" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="20" width="190" height="40" as="geometry" />
+        <mxCell id="MCI71acArB24floLTyHA-1" value="&lt;font color=&quot;#6600cc&quot; style=&quot;font-size: 18px;&quot;&gt;MySQL 中的 SQL执行流程&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81" y="440" width="249" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MCI71acArB24floLTyHA-2" target="MCI71acArB24floLTyHA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="39" as="targetPoint" />
+            <mxPoint x="380" y="119" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="380" y="41" />
+              <mxPoint x="80" y="41" />
+              <mxPoint x="80" y="38" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-2" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;解析器&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;解析语法&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;生成语法树&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="108" width="106" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.565;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MCI71acArB24floLTyHA-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="300" as="targetPoint" />
+            <mxPoint x="558.5" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="559" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MCI71acArB24floLTyHA-3" target="MCI71acArB24floLTyHA-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;优化器&lt;br&gt;&lt;/font&gt;查询优化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="112" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MCI71acArB24floLTyHA-4" target="MCI71acArB24floLTyHA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;查询缓存&lt;/font&gt;&lt;br&gt;（mysql8.0没有）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="115" width="111" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="51" y="128" as="sourcePoint" />
+            <mxPoint x="141" y="128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MCI71acArB24floLTyHA-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="201" y="118" as="sourcePoint" />
+            <mxPoint x="41" y="78" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="201" y="78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-12" value="sql" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="41" y="98" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-16" value="则直接返回查询结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="47" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-17" value="如果没有缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="244" y="118" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-18" value="如果有缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="77" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-20" value="如果语法错误，报错返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="8" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-22" value="查询选择的存储引擎并调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="259" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=57.5;exitPerimeter=0;entryX=1.045;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.95" y="387.48" as="sourcePoint" />
+            <mxPoint x="34.90000000000004" y="215.904" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="479.95" y="398.98" />
+              <mxPoint x="160.95000000000002" y="398.98" />
+              <mxPoint x="160.95000000000002" y="219.98000000000002" />
+              <mxPoint x="49.949999999999996" y="219.98000000000002" />
+              <mxPoint x="49.949999999999996" y="215.98000000000002" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MCI71acArB24floLTyHA-23" target="MCI71acArB24floLTyHA-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="540" />
+              <mxPoint x="530" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-23" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="140" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-24" value="InnoDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-25" value="myISAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-26" value="..........." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-29" value="返回查询结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="189" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-30" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-32" value="客户端" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="46" width="130" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MCI71acArB24floLTyHA-33" target="MCI71acArB24floLTyHA-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="520" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-33" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;文件系统&lt;br&gt;&lt;/font&gt;（存放数据）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495.5" y="550" width="109" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-42" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="420" width="239" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-44" value="执行计划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="208" width="80" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-46" value="生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="171" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="210" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCI71acArB24floLTyHA-50" value="存入查询缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="189" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
